@@ -11,9 +11,9 @@ public class TestController {
         return "Spring Boot is running!";
     }
 
-    @GetMapping("/health")
+    @GetMapping("/health2")
     public String health() {
-        return "App + DB config OK";
+        return "App + DB config OK2";
     }
 }
 
