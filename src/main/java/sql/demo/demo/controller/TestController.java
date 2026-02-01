@@ -10,5 +10,10 @@ public class TestController {
     public String test() {
         return "Spring Boot is running!";
     }
+
+    @GetMapping("/health")
+    public String health() {
+        return "App + DB config OK";
+    }
 }
 
